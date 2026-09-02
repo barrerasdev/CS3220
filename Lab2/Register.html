@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register </title>
+        <link rel="stylesheet" href="Dolphins.css">
+            <h1 class="header"><img src="dolphin128x128.png" width="25" alt="Dolphin"> Dolphins Swim Academy</h1>
+    </head>
+    <body>
+        <h2>Register</h2>
+        <form>
+            Session: <select name="sessions" id="sessions">
+                <option value="Session 1">Session 1: June 17 - June 27</option>
+                <option value="Session 2">Session 2: July 8 - July 18</option>
+                <option value="Session 3">Session 3: July 22 - August 1</option>
+                <option value="Session 4">Session 4: August 5 - August 15</option>
+            </select>
+            <br>
+            Name: <input type="text" name="name" id="name">
+            <br>
+            Birth Year: <input type="text" name="birthyear" id="birthyear">
+            <br>
+            Level: <select name="level" id="level">
+                <option value="Starfish">Starfish</option>
+                <option value="Minnows">Minnows</option>
+                <option value="Seahorses">Guppies</option>
+                <option value="Dolphins">Dolphins</option>
+            </select>
+            <br>
+            Time (1st Choice): 
+            <input type="radio" name="time1" value="9:00am"> 9am
+            <input type="radio" name="time1" value="10:00am"> 10am
+            <input type="radio" name="time1" value="11:00am"> 1pm   
+            <input type="radio" name="time1" value="12:00pm"> 2pm
+            <br>
+            Time (2nd Choice):
+            <input type="radio" name="time2" value="9:00am"> 9am
+            <input type="radio" name="time2" value="10:00am"> 10am
+            <input type="radio" name="time2" value="11:00am"> 1pm
+            <input type="radio" name="time2" value="12:00pm"> 2pm
+            <br>
+            <input type="submit" value="Register">
+        </form>
+            <p class="footer">Copyright &copy; Dolphins Swim Academy 2024<br>
+            Dolphin icon is created by 
+            <a href= "https://www.flaticon.com/authors/freepik">Freepik</a> 
+            from
+            <a href="https://www.flaticon.com/">Flaticon</a>
+        </p>
+    </body>
+</html>
