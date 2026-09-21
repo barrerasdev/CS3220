@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/cerulean/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-body-tertiary">
+        <div class="container-fluid p-3">
+
+            <a class="navbar-brand" href="#" >
+                <img src="dolphin128x128.png" width="25" alt="Dolphin">
+                Dolphins Swim Academy
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Students</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Classes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coaches</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item active" aria-current="page">
+                Register
+            </li>
+        </ol>
+    </nav>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-lg-6 mb-3">
+                    <label for="sessions" class="form-label">Session:</label>
+                    <select class="form-select" name="sessions" id="sessions">
+                        <option value="Session 1">Session 1: June 17 - June 27</option>
+                        <option value="Session 2">Session 2: July 8 - July 18</option>
+                        <option value="Session 3">Session 3: July 22 - August 1</option>
+                        <option value="Session 4">Session 4: August 5 - August 15</option>
+                    </select>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <label for="level" class="form-label">Level:</label>
+                    <select class="form-select" name="level" id="level">
+                        <option value="Starfish">Starfish</option>
+                        <option value="Minnows">Minnows</option>
+                        <option value="Guppies">Guppies</option>
+                        <option value="Dolphins">Dolphins</option>
+                    </select>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text"
+                           class="form-control"
+                           name="name"
+                           id="name">
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <label for="birthyear" class="form-label">Birth Year:</label>
+                    <input type="text"
+                           class="form-control"
+                           name="birthyear"
+                           id="birthyear">
+                </div>
+            <div class="col-lg-6 mb-3">
+                <label class="form-label">Time (1st Choice):</label>
+                <div class="d-flex gap-3">
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time1"
+                            value="9:00am"
+                            id="time1-9">
+                        <label class="form-check-label" for="time1-9">9am</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time1"
+                            value="10:00am"
+                            id="time1-10">
+                        <label class="form-check-label" for="time1-10">10am</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time1"
+                            value="1:00pm"
+                            id="time1-1">
+                        <label class="form-check-label" for="time1-1">1pm</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time1"
+                            value="2:00pm"
+                            id="time1-2">
+                        <label class="form-check-label" for="time1-2">2pm</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <label class="form-label">Time (2nd Choice):</label>
+                <div class="d-flex gap-3">
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time2"
+                            value="9:00am"
+                            id="time2-9">
+                        <label class="form-check-label" for="time2-9">9am</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time2"
+                            value="10:00am"
+                            id="time2-10">
+                        <label class="form-check-label" for="time2-10">10am</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time2"
+                            value="1:00pm"
+                            id="time2-1">
+                        <label class="form-check-label" for="time2-1">1pm</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input"
+                            type="radio"
+                            name="time2"
+                            value="2:00pm"
+                            id="time2-2">
+                        <label class="form-check-label" for="time2-2">2pm</label>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <input type="submit"
+                   value="Register"
+                   class="btn btn-primary">
+        </form>
+    </div>
+    <div class="bg-light text-center p-3 mt-4">
+        Copyright &copy; Dolphins Swim Academy 2024<br>
+        Dolphin icon is created by
+        <a href="https://www.flaticon.com/authors/freepik">Freepik</a>
+        from
+        <a href="https://www.flaticon.com/">Flaticon</a>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

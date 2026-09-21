@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/cerulean/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-body-tertiary">
+        <div class="container-fluid p-3">
+
+            <a class="navbar-brand" href="#" >
+                <img src="dolphin128x128.png" width="25" alt="Dolphin">
+                Dolphins Swim Academy
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Students</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Classes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coaches</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb p-3">
+            <li class="breadcrumb-item active" aria-current="page">
+                Students
+            </li>
+        </ol>
+    </nav>
+
+
+    <div class="d-inline-flex gap-2">
+        <select class="form-select w-auto" aria-label="Select session">
+            <option selected>Session 1: June 17 - June 27</option>
+            <option value="Session 2">Session 2: July 8 - July 18</option>
+            <option value="Session 3">Session 3: July 22 - August 1</option>
+            <option value="Session 4">Session 4: August 5 - August 15</option>
+        </select>
+
+        <input type="submit" value="Select" class="btn btn-primary">
+    </div>
+
+
+
+    <table class="table table-striped mt-4">
+
+        <thead>
+            <tr>
+                <th scope="col">Student Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Level</th>
+                <th scope="col">Time (1st Choice)</th>
+                <th scope="col">Time (2nd Choice)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Josh</td>
+                <td>7</td>
+                <td>Minnows</td>
+                <td>10am</td>
+                <td>9am</td>
+            </tr>
+
+            <tr>
+                <td>Eva</td>
+                <td>6</td>
+                <td>Minnows</td>
+                <td>10am</td>
+                <td>1pm</td>
+            </tr>
+
+            <tr>
+                <td>Lucy</td>
+                <td>4</td>
+                <td>Starfish</td>
+                <td>1pm</td>
+                <td>2pm</td>
+            </tr>
+
+            <tr>
+                <td>Matt</td>
+                <td>8</td>
+                <td>Dolphins</td>
+                <td>9am</td>
+                <td>2pm</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+    <div class=" text-center p-3 mt-4">
+        Copyright &copy; Dolphins Swim Academy 2024<br>
+        Dolphin icon is created by
+        <a href="https://www.flaticon.com/authors/freepik">Freepik</a>
+        from
+        <a href="https://www.flaticon.com/">Flaticon</a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
